@@ -3,7 +3,8 @@ pipeline {
 
     stages {
         stage('file path') {
-            sh showpath
+            steps {
+               echo 'mvn test'
             }
         }
         
