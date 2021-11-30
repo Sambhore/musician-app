@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('file path') {
             steps {
-               sh showpath
+               sh 'pwd'
             }
         }
         
