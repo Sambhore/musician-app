@@ -3,10 +3,7 @@ pipeline {
 
     stages {
         stage('file path') {
-            steps {
-               echo pwd
-               path= pwd
-              echo $path
+            sh showpath
             }
         }
         
